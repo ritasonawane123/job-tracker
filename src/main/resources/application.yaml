@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: jobtracker
+  datasource:
+    url: jdbc:mysql://localhost:3306/jobtracker
+    username: jobuser
+    password: jobpass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
